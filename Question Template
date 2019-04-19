@@ -1,0 +1,83 @@
+{
+  "q1" : {
+    "Eval" : "Concept",
+    "choices" : {
+      "c1" : {
+        "ctext" : "avoid privilege creep",
+        "val" : 1
+      },
+      "c2" : {
+        "ctext" : "use design secrecy for security",
+        "val" : 2
+      },
+      "c3" : {
+        "ctext" : "avoid open source code",
+        "val" : 3
+      },
+      "c4" : {
+        "ctext" : "use shared controls differently",
+        "val" : 4
+      }
+    },
+    "correct" : 2,
+    "order" : 1,
+    "pts" : 1,
+    "qlabel" : "open design",
+    "qname" : "q01",
+    "qtext" : " Open Design means a secure system does not . . .",
+    "qtype" : "button"
+  },
+  "q2" : {
+    "Eval" : "SWRef",
+    "choices" : {
+      "c1" : {
+        "ctext" : "Stealing the Death Star plans",
+        "val" : 1
+      },
+      "c2" : {
+        "ctext" : "Rescuing Princess Leia",
+        "val" : 2
+      },
+      "c3" : {
+        "ctext" : "Obi-Wan and Vader duelling",
+        "val" : 3
+      },
+      "c4" : {
+        "ctext" : "light sabers and spaceships",
+        "val" : 4
+      }
+    },
+    "correct" : 1,
+    "order" : 2,
+    "pts" : 1,
+    "qlabel" : "open design",
+    "qname" : "q02",
+    "qtext" : "In Star Wars separate privilege is explained by  . . . ",
+    "qtype" : "button"
+  },
+  "q3" : {
+    "Eval" : "ImageRef",
+    "correct" : 4,
+    "likerttext" : "IC4:Death Star:R2D2:Obi-Wan:Imperial-Star-Destroyer",
+    "mc1" : "images_sw/death star plans.png",
+    "mc2" : "images_sw/r2d2.png",
+    "mc3" : "images_sw/obi-wan3.png",
+    "mc4" : "images_sw/Imperial-Star-Destroyer.png",
+    "order" : 3,
+    "pts" : 1,
+    "qlabel" : "open design",
+    "qname" : "q03",
+    "qtext" : "Which image appeared in the explanation video?",
+    "qtype" : "image"
+  },
+  "q4" : {
+    "Eval" : "ImageRef",
+    "correct" : "tchalla",
+    "order" : 4,
+    "pts" : 1,
+    "qlabel" : "open design",
+    "qname" : "q04",
+    "qtext" : "What is Killmonger's Password",
+    "qtype" : "shorttxt"
+  }
+}
